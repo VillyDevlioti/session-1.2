@@ -1,0 +1,53 @@
+body, .subheader, .main-copy{
+    /*width: 1200px;*/
+    background-color: beige;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+}
+
+h1 {
+    background-color: olive;
+    font-size: 32px;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    margin: 0;
+}
+
+.subheader {
+    font-size: 24px;
+    text-align: left;
+}
+.main-copy {
+    text-align: left;
+    font-size: 18px;
+}
+
+#name-sub {
+    width: 67%;
+    margin-left: 20px;
+    
+}
+
+#contact-sub, #name-sub {
+    display: inline-block;
+}
+
+#image, #para, #list {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#para {
+    width: 50%;
+}
+
+#image {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
+
+a {
+    color: red;
+}
